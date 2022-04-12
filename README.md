@@ -8,7 +8,7 @@
 Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+Created a string library based off of the code in main.py for it to fullt run. 
 
 ## GRACE DAYS
 Grace days used for this assignment: 0
@@ -16,10 +16,13 @@ Grace days used for this assignment: 0
 Grace days remaining: 5 / 5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+none 
 
 ## REFERENCES:
- < List any outside resources used >
+- https://www.geeksforgeeks.org/python-program-to-find-the-sum-of-characters-ascii-values-in-string-list/
 
+- https://realpython.com/python-map-function/#:~:text=Python's%20map()%20is%20a,them%20into%20a%20new%20iterable.
+
+- CS LAB 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ hello 
