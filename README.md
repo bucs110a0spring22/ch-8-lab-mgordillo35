@@ -8,7 +8,7 @@
 Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
-Created a string library based off of the code in main.py for it to fullt run. 
+Created a string library based off of the code in main.py for it to fullty run. 
 
 ## GRACE DAYS
 Grace days used for this assignment: 0

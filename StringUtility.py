@@ -4,8 +4,8 @@ class StringUtility:
 
 
   '''
-  this function
-  args: (self)-  (string)-
+  this function is key for all the other methods to operate 
+  args: (self)- needs to be used to call atributtes (string)- is being stored as an instance variable 
   return None
   '''
 
@@ -14,9 +14,9 @@ class StringUtility:
     return self.string
     
   '''
-  this function
-  args: (self)- 
-  return None
+  this function is used to return the string
+  args: (self)- needs to be used to call atributtes
+  return the string itself 
   '''
   
   def vowels(self):
@@ -31,8 +31,8 @@ class StringUtility:
       return "many"
 
   '''
-  this function
-  args: (self)-  
+  this function counts the number of vowels in the string 
+  args: (self)- needs to be used to call  
   return a string for anything more than 5 vowels or the number of vowels if less than 5
   '''
 
@@ -43,8 +43,8 @@ class StringUtility:
     return self.string [0:2] + self.string [-2:]
 
   '''
-  this function
-  args: (self)- 
+  this function takes first 2 and last 2 letters of the string and puts them together 
+  args: (self)- needs to be used to call 
   return the first 2 and last 2 letters of the word
   '''
 
@@ -56,22 +56,42 @@ class StringUtility:
 
 
   '''
-  this function
-  args: (self)-  
+  this function replaced a letter in the string with a star
+  args: (self)- needs to be used to call  
   return a star replaced by a letter or if less than 1 then it returns the string itself 
   '''
 
   def asciiSum(self):
+    
     return sum(map(ord,self.string))
   '''
-  this function
-  args: (self)-  
+  this function adds the ascii values of the string
+  args: (self)- needs to be used to call 
   return the sum of ascii values thats in the string
   '''
 
   def cipher(self):
-    pass
+    space = ''
+    for i in self.string:
+      if i == ' ':
+        y = ord(i)
+      if i.islower():
+        y = ord(i) + len(self.string)
+        while y > ord('z'):
+          y -=26
+      elif i.isupper():
+        y = ord(i) + len(self.string)
+        while y > ord('Z'):
+          y -=26
 
+      space += chr(y)
+    return space
+      
+  '''
+  this function shifts characters within the string by the # of characters in the string itself.
+  args: (self)- needs to be used to call 
+  return the characters shifted by the length of the string
+  '''
 
 
     
